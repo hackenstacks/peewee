@@ -1,0 +1,38 @@
+# Peewee QLoRA Training Config
+# Base: Mistral Vibe (via Mistral fine-tune API)
+
+training:
+  method: qlora
+  epochs: 3
+  batch_size: 4
+  learning_rate: 3e-5
+  max_length: 2048
+  warmup_steps: 100
+  weight_decay: 0.01
+  gradient_accumulation_steps: 4
+
+lora:
+  r: 16
+  alpha: 32
+  dropout: 0.05
+  target_modules:
+    - q_proj
+    - v_proj
+    - k_proj
+    - o_proj
+
+data:
+  train_file: training/data/nexus_train_mistral.jsonl
+  format: messages
+  train_split: 0.95
+  eval_split: 0.05
+
+output:
+  dir: training/output/peewee-qlora
+  save_steps: 500
+  eval_steps: 250
+  logging_steps: 50
+
+model:
+  base: mistral-nemo  # closest Mistral Vibe equivalent via API
+  dtype: bfloat16

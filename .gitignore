@@ -1,0 +1,40 @@
+# Training data (large files — store locally or via Git LFS)
+training/data/*.jsonl
+training/data/*.json
+training/data/*.parquet
+
+# Model weights
+training/models/
+training/output/
+*.gguf
+*.bin
+*.safetensors
+*.pt
+*.pth
+
+# Logs
+training/logs/
+*.log
+
+# Backups
+*.bak
+*.tar.gz
+*.zip
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# Secrets
+.env
+.env.*
+*.pem
+*.key
+secrets/
+
+# Results (large)
+results/*.jsonl
+results/*.bin
