@@ -1,0 +1,44 @@
+Peewee — NXS-Sovereign-Model
+Copyright 2026 hackenstacks@protonmail.com
+
+This project is licensed under the Apache License, Version 2.0.
+
+---
+
+ATTRIBUTION REQUIREMENTS
+
+If you use, modify, or redistribute this work you must:
+
+1. Include a copy of the Apache 2.0 LICENSE file.
+2. Retain this NOTICE file in all distributions.
+3. Clearly state any modifications made to the original source.
+4. Credit the original author:
+
+     Author  : hackenstacks@protonmail.com
+     Source  : https://github.com/hackenstacks/peewee
+     Mirror  : https://codeberg.org/hackenstacks/peewee
+
+Example attribution for derivative works:
+
+     Based on Peewee (NXS-Sovereign-Model) by hackenstacks@protonmail.com
+     Source: https://github.com/hackenstacks/peewee
+     Changes: [describe your modifications here]
+
+---
+
+BASE MODEL
+
+This project fine-tunes the following base model:
+
+     Model   : Huihui-Qwen3.5-4B-abliterated
+     Author  : huihui-ai
+     Source  : https://huggingface.co/huihui-ai/Huihui-Qwen3.5-4B-abliterated
+     License : Apache 2.0
+
+---
+
+TRAINING FRAMEWORK
+
+     Framework : Unsloth
+     Source    : https://github.com/unslothai/unsloth
+     License   : Apache 2.0
