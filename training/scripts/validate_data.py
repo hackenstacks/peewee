@@ -1,4 +1,6 @@
 #!/usr/bin/env python3
+# Author  : hackenstacks@protonmail.com
+# Contact : hackenstacks@protonmail.com
 """Quick validation of training data before upload."""
 
 import json

@@ -1,5 +1,7 @@
 #!/bin/sh
 # Submit Peewee training job via Antigravity CLI
+# Author  : hackenstacks@protonmail.com
+# Contact : hackenstacks@protonmail.com
 # Usage: ./submit_antigravity.sh [--full]
 
 SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"

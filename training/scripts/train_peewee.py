@@ -1,4 +1,6 @@
 #!/usr/bin/env python3
+# Author  : hackenstacks@protonmail.com
+# Contact : hackenstacks@protonmail.com
 """
 Peewee (NXS-Sovereign-Model) fine-tune
 Base : huihui-ai/Huihui-Qwen3.5-4B-abliterated
